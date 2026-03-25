@@ -1,6 +1,33 @@
-body { 
+/* reset css */
+* {
+    /* margem = externa */
+    margin: 0;
+}
 
-    background: rgba(255, 210, 152, 0.918); /*  cor de fundo */
-    color: rgb(170, 18, 56); /*  cor do texto  */
-    
+
+body { 
+     /*  cor de fundo */
+    background: rgba(255, 210, 152, 0.918);
+     /*  cor do texto  */
+    color: rgb(170, 18, 56);
+}
+
+/* seletor para <A> */
+a {
+    /* propriedade e VALOR */
+text-decoration: none;
+color: black;
+}
+
+
+
+/* HEADER= CABEÇALHO */
+header{
+    /* ROW = linha */
+display: flex; /* passou os botões para os cantos/ direita */
+justify-content: space-between; /*  espaçoes entre os elementos */
+align-items: center;
+background-color: darksalmon;
+/* largura e comprimento */
+width: 100%;
 }
