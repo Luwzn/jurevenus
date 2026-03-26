@@ -21,39 +21,40 @@
     <header>
 
      <!-- Logo -->
-     <div>
-      <a href="">
+     <div class="header-logo">
+      <a href="#home">
       JR
       </a>
      </div>
      <!-- Menu Desktop / PC -->
-      <nav>
-        <ul>
+      <nav class="menu-desktop">
+        <ul class="menu">
             <li>
-                <a href="">
-                    <span>pagina inicial</span>
-                </a>
+                <!-- cria links -->
+                <a href="#home" class="menu-link active" >
+                    <span class="menu-texto">pagina inicial</span>
+                </a> <!-- a barra fecha o codigo -->
             </li>
 
             <li>
-                <a href="">
-                    <span>
+                <a href="#produtos indicados" class="menu-link">
+                    <span class="menu-texto">
                          produtos indicados 
                     </span>
                 </a>
             </li>
 
             <li>
-                <a href="">
-                    <span>
+                <a href="#videos" class="menu-link">
+                    <span class="menu-texto">
                          videos 
                     </span>
                 </a>
             </li>
 
           <li>
-                <a href="">
-                    <span>
+                <a href="#contato" class="menu-link">
+                    <span class="menu-texto">
                          contato 
                     </span>
                 </a>
@@ -62,12 +63,12 @@
                                         
       </nav>
         <!-- icone trocar cor de tema -->
-         <div>
+         <div class="header-toggle">
             <!-- icone sol ou lua -->
-            <i><i class="bi bi-sun"></i> </i>
+            <i class="bi bi-sun" id="toggleTheme"> </i>
 
             <!-- botão Hamburgue -->
-             <button>
+             <button class="btn-menu-mobile" id="menuHamburger">
                 <i class="bi bi-list"></i>
              </button>
 

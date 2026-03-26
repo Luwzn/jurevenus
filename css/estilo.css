@@ -32,3 +32,10 @@ background-color: darksalmon;
 /* largura e comprimento */
 width: 100%;
 }
+/* UL  sistema de lista*/
+.menu {
+list-style: none;
+display: flex; /* linha reta */
+/* espaço */
+gap:1rem ;
+}
