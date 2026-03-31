@@ -39,3 +39,35 @@ display: flex; /* linha reta */
 /* espaço */
 gap:1rem ;
 }
+
+
+
+/*tag NAV  */
+.menu-desktop{
+    display: none;
+}
+
+/* daqui pra cima versão mobile */
+/* -------------------------- */
+
+
+/* Responsivo/ uma tela adptada automaticamente para o dispositivo */
+
+/* serve para as telas maiores */
+/* telas maiores que 768px */
+
+@media (min-width: 768px){ 
+header{
+/* espaço inteiro */
+    padding: 1rem 6rem;
+    justify-content: flex-end;
+    gap: ;
+}
+
+
+/* NAV */
+.menu-desktop {
+    display: flex;
+}
+
+}
