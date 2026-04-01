@@ -1,9 +1,0 @@
-import { RecipeLogo } from './components/RecipeLogo';
-
-export default function App() {
-  return (
-    <div className="size-full flex items-center justify-center bg-gradient-to-br from-red-950 via-red-900 to-stone-900">
-      <RecipeLogo />
-    </div>
-  );
-}

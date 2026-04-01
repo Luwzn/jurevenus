@@ -2,49 +2,60 @@
 * {
     /* margem = externa */
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 
-body { 
-     /*  cor de fundo */
+body {
+    /*  cor de fundo */
     background: rgba(255, 210, 152, 0.918);
-     /*  cor do texto  */
+    /*  cor do texto  */
     color: rgb(170, 18, 56);
 }
 
 /* seletor para <A> */
 a {
     /* propriedade e VALOR */
-text-decoration: none;
-color: black;
+    text-decoration: none;
+    color: black;
 }
 
 
 
 /* HEADER= CABEÇALHO */
-header{
+header {
     /* ROW = linha */
-display: flex; /* passou os botões para os cantos/ direita */
-justify-content: space-between; /*  espaçoes entre os elementos */
-align-items: center;
-background-color: darksalmon;
-/* largura e comprimento */
-width: 100%;
+    display: flex;
+    /* passou os botões para os cantos/ direita */
+    justify-content: space-between;
+    /*  espaçoes entre os elementos */
+    align-items: center;
+    background-color: darksalmon;
+    /* largura e comprimento */
+    width: 100%;
+    padding: 0.5rem 1rem;
 }
+
 /* UL  sistema de lista*/
 .menu {
-list-style: none;
-display: flex; /* linha reta */
-/* espaço */
-gap:1rem ;
+    list-style: none;
+    display: flex;
+    /* linha reta */
+    /* espaço */
+    gap: 2rem;
 }
 
 
 
 /*tag NAV  */
-.menu-desktop{
+.menu-desktop {
     display: none;
+}
+
+/* logo */
+.logo {
+    width: 5rem;
 }
 
 /* daqui pra cima versão mobile */
@@ -56,18 +67,18 @@ gap:1rem ;
 /* serve para as telas maiores */
 /* telas maiores que 768px */
 
-@media (min-width: 768px){ 
-header{
-/* espaço inteiro */
-    padding: 1rem 6rem;
-    justify-content: flex-end;
-    gap: ;
-}
+@media (min-width: 768px) {
+    header {
+        /* espaço inteiro */
+        padding: 1rem 6rem;
+        justify-content:;
+        gap: ;
+    }
 
 
-/* NAV */
-.menu-desktop {
-    display: flex;
-}
+    /* NAV */
+    .menu-desktop {
+        display: flex;
+    }
 
 }
